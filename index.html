@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<head>
+</head>
+<body>
+
+<!-- 2. Include images on top to slide with "section" element -->
+
+<section>
+	<!-- <img class="mySlide" src="images/cc.jpg" style="width: 100%; height: 350px;object-fit: cover;"> -->
+    <img class="mySlide" src="images/lc_01_06052018.jpg" style="width: 100%; height: 280px;object-fit: cover;">
+	  <img class="mySlide" src="images/sd1.png" style="width: 100%; height: 280px;object-fit: cover;">
+    <img class="mySlide" src="images/lc_02_06052018.jpg" style="width: 100%; height: 280px;object-fit: cover;">
+    <img class="mySlide" src="images/lc_03_06052018.jpg" style="width: 100%; height: 280px;object-fit: cover;">
+</section>
+
+<!-- 3. Script to begin slide show JQuery script, change image for every 3 seconds-->
+
+
+<script>
+	var myIndex=0;
+	carousel();
+
+	function carousel(){
+		var i;
+		var x = document.getElementsByClassName("mySlide");
+		for(i=0; i < x.length; i++){
+			x[i].style.display="none";
+		}
+		myIndex++;
+		if(myIndex > x.length) {myIndex = 1}
+			x[myIndex-1].style.display = "block";
+		setTimeout(carousel, 3000)
+	}
+</script>
+
+
+<!-- 1. Write navigation bar with "nav" element-->
+<nav class="w3-bar w3-black">
+	<a href="#home" class="w3-button w3-bar-item">HOME</a>
+	<a href="research.html" class="w3-button w3-bar-item">RESEARCH</a>
+	<a href="people.html" class="w3-button w3-bar-item">PEOPLE</a>
+	<a href="software.html" class="w3-button w3-bar-item">SOFTWARE & DATA</a>
+	<a href="publications.html" class="w3-button w3-bar-item">PUBLICATIONS</a>
+  <a href="misc.html" class="w3-button w3-bar-item">MISCELLANEOUS</a>
+	<!-- <a href="openpositions.html" class="w3-button w3-bar-item">OPEN POSITIONS</a> -->
+</nav>
+
+<!-- 4. Add main title and subtitle-->
+
+<section class="w3-container w3-center">
+	<h1 class="w3-wide">CHAVEZ LABORATORY</h1>
+	<h4 class="w3-opacity w3-wide">Chromatin and Gene Regulation in Childhood Cancers</h4>
+</section>
+
+<style>
+
+	.clearfix{
+		overflow: auto;
+	}
+	.story{
+		max-width: 800px;
+		margin: auto;
+		background: transparent;
+		padding: 10px;
+	}
+
+</style>
+
+<div class="clearfix story">
+<p class="w3-justify">
+
+<img src="images/cc.jpg" class="w3-round-large w3-border w3-round-xxlarge" alt="GroupPhoto" style="width: 100%" align="center">
+
+</p>
+</div>
+<br>
+<br>
+
+<!-- <center><h2 class="w3-wide">Under construction</h2></center> -->
+<!-- Content should be here-->
+
+<footer class="w3-container w3-padding-60 w3-center w3-black w3-large">
+	<!-- <p><font size="1.5">Designed by <a href="https://twitter.com/nerd_yie">@nerd_yie</a></font></p> -->
+  <p></p>
+</footer>
+
+<footer class="w3-container w3-padding-20 w3-center w3-white w3-large">
+
+</footer>
+
+</body>
+</html>
