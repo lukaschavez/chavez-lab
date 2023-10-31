@@ -73,8 +73,17 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 			</div>
 		</div>
 	</div>
-  
-	<div class="row container" style="margin:auto;">
+	#outPopUp {
+		position: absolute;
+		width: 300px;
+		height: 200px;
+		z-index: 15;
+		top: 50%;
+		left: 50%;
+		margin: -100px 0 0 -150px;
+		background: red;
+	  }
+	<div class="center" style="margin:auto;">
 		<div style="display:table-cell; vertical-align:middle; text-align:center"></div>
 		<div class="col-md-4" max-width="250px;">
 			<!-- <p style="text-align:center;">  -->
