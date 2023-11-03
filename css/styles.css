@@ -249,8 +249,14 @@
     padding: 20px 0;
 }
 
-.site-footer .footer-content {
-    margin-bottom: 20px;
+.site-footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.site-footer .col-xs-12 {
+    text-align: center;
 }
 
 .site-footer img {
@@ -271,5 +277,6 @@
     display: inline;
     margin: 0 10px;
 }
+
 }
 
