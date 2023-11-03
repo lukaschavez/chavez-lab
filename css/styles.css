@@ -147,140 +147,101 @@
     margin-bottom: 50px;
 }
 
-.site-footer
-{
-  background-color:#26272b;
-  padding:45px 0 20px;
-  font-size:15px;
-  line-height:24px;
-  color:#737373;
-
-}
-.site-footer hr
-{
-  border-top-color:#bbb;
-  opacity:0.5
-}
-.site-footer hr.small
-{
-  margin:20px 0
-}
-.site-footer h6
-{
-  color:#fff;
-  font-size:16px;
-  text-transform:uppercase;
-  margin-top:5px;
-  letter-spacing:2px
-}
-.site-footer a
-{
-  color:#737373;
-}
-.site-footer a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
-}
-.footer-links
-{
-  padding-left:0;
-  list-style:none
-}
-.footer-links li
-{
-  display:block
-}
-.footer-links a
-{
-  color:#737373
-}
-.footer-links a:active,.footer-links a:focus,.footer-links a:hover
-{
-  color:#3366cc;
-  text-decoration:none;
-}
-.footer-links.inline li
-{
-  display:inline-block
+.site-footer {
+  background-color: #26272b; /* Your desired background color */
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
 }
 
-.bg-primary {
-    /* background-color: #63899F; */
-    background-image: url('/images/child_brain2.png');
-    /* background-size: fill ; */
-}
-.panel-title {
-    color: #337ab7;
-}
-.panel-title:hover {
-    color: #3366cc
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
 }
 
-#members {
-  padding-top: 50px;
-  /* background-color: #F1FAEE; */
-}
-#members .thumbnail{
-  background-color:white;
+.site-footer hr.small {
+  margin: 20px 0;
 }
 
-@media (max-width:991px)
-{
-  .site-footer [class^=col-]
-  {
-    margin-bottom:30px
-  }
-}
-@media (max-width:767px)
-{
-  .site-footer
-  {
-    padding-bottom:0
-  }
-  .site-footer .copyright-text,.site-footer .social-icons
-  {
-    text-align:center
-  }
-  .site-footer {
-    background-color: #f0f0f0;
-    width: 100%;
-    text-align: center;
-    padding: 20px 0;
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
 }
 
-.site-footer .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.site-footer a {
+  color: #737373;
 }
 
-.site-footer .col-xs-12 {
-    text-align: center;
-}
-
-.site-footer img {
-    margin: 5px;
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
 }
 
 .site-footer .footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+
+.site-footer .footer-links li {
+  display: block;
+}
+
+.site-footer .footer-links a {
+  color: #737373;
+}
+
+.site-footer .footer-links a:active,
+.site-footer .footer-links a:focus,
+.site-footer .footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.site-footer .footer-links.inline li {
+  display: inline-block;
+}
+
+/* Media queries and responsive styles */
+@media (max-width:767px) {
+  .site-footer {
+    background-color: #f5f5f5; /* Your desired background color */
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .site-footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .site-footer .col-xs-12 {
+    text-align: center;
+  }
+
+  .site-footer img {
+    margin: 5px;
+  }
+
+  .site-footer .footer-links {
     color: #555;
     font-size: 16px;
-}
+  }
 
-.site-footer ul {
+  .site-footer ul {
     list-style: none;
     padding: 0;
-}
+  }
 
-.site-footer ul li {
+  .site-footer ul li {
     display: inline;
     margin: 0 10px;
-}
-.site-footer {
-  width: 100%;
-  background-color: #f5f5f5; /* Add your desired background color */
-  /* Add any additional styling needed for the footer */
+  }
 }
 
 .container-fluid {
@@ -291,5 +252,5 @@
 }
 
 
-}
+
 
