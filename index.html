@@ -23,6 +23,48 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 
 <!-- Loading main css file -->
 <link rel="stylesheet" href="/css/styles.css">
+<style>
+	/* Add the news feed styles here */
+	.news-feed {
+		width: 70%;
+		margin: 20px auto;
+	}
+
+	.news-item {
+		background-color: #fff;
+		border: 1px solid #e0e0e0;
+		border-radius: 8px;
+		padding: 20px;
+		margin-bottom: 20px;
+		box-shadow: 0 4px 6px -6px #222;
+	}
+
+	h2 {
+		margin-top: 0;
+		font-size: 22px;
+		color: #333;
+	}
+
+	.date {
+		font-size: 14px;
+		color: #666;
+	}
+
+	p {
+		margin: 10px 0;
+		color: #444;
+		line-height: 1.6;
+	}
+
+	a {
+		color: #007bff;
+		text-decoration: none;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+</style>
 </head>
 <body>
 
@@ -132,8 +174,26 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 				</div>
 			</div> 
 		</div>
-	</div> 
-</main> -->
+	</div> -->
+<main>
+	<div class="container">
+
+        <div class="news-feed">
+            <div class="news-item">
+                <h2>New Members</h2>
+                <span class="date">October 2023</span>
+                <p>Charles Handley and Rishaan Kenkre recently joined the lab! <a href="#">R</a></p>
+            </div>
+            <!-- <div class="news-item">
+                <h2>Upcoming Symposium</h2>
+                <span class="date">October 20, 2023</span>
+                <p>We're excited to announce our participation in the upcoming Genetics Symposium. <a href="#">Learn more</a></p>
+            </div>
+            More news items can be added -->
+        </div>
+    </div>
+
+</main>
 <style>
 	.image-container {
 		text-align: center; /* Center the images */
